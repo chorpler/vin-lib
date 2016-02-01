@@ -1,9 +1,9 @@
 {
   "name": "vin-lib",
   "description": "A Library to work with VIN numbers",
-  "version": "1.0.1",
+  "version": "1.0.2",
  "license" : "MIT" ,
-  "private": false, 
+  "private": false,
   "author": "LPG Labs",
   "main": "index.js",
   "files": [

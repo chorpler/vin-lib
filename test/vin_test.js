@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 
 //var vinLib = require('../index');
-var vinLib = require('../lib/index');
+var vinLib = require('../index');
 
 
 

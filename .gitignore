@@ -57,5 +57,3 @@ modules/views/
 .idea/
 /static/video/
 /static/blog/
-/uploads/*
-/packages/custom/blog/public/images/blog/
