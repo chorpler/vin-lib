@@ -1,16 +1,18 @@
-# VIN lib
+# VIN library
 
-This package is a great library to work with VIN numbers>
-It can validate the VIN number and also break it down into smaller components for validation
+A TypeScript library for working win VIN numbers.
+Forked from [vin-lib](https://github.com/knodeit/vin-lib) and rewritten in TypeScript on 2019-08-19.
 
 ## Usage
 
-```js
-var vinLib = require('vin-lib');
-var isValidVin = vinLib.isValidVin('11111111111111111'); // returns true if this is a valid VIN
-var vinDetail = vinLib.getVinDetails('11111111111111111'); // returns a structure with the following elements
+```ts
+import { isValidVin, getVinDetails, generateVin } from 'vin-lib-ts';
 
-{ wmi: 'WB',
+let valid = isValidVin('11111111111111111'); // returns true if this is a valid VIN
+let sampleVin = generateVin(); // returns a valid random VIN
+let vinDetail = vinLib.getVinDetails('11111111111111111'); // returns a structure with the following elements
+{
+  wmi: 'WB',
   vds: 'AM334',
   vis: 'YFP7150',
   checkDigit: '6',
@@ -19,9 +21,5 @@ var vinDetail = vinLib.getVinDetails('11111111111111111'); // returns a structur
   assemblyPlant: 'F',
   serialNumber: 'P71500',
   manufacturer: 'BMW' 
-  }
-
-
+}
 ```
-
- 

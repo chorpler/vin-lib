@@ -1,10 +1,21 @@
 var expect = require('chai').expect;
 
 //var vinLib = require('../index');
-var vinLib = require('../index');
+// var vinLib = require('../index');
+var vinLib = require('../lib/index');
 
 
 
+
+// describe('Generate a random VIN', function() {
+//     var vin = vinLib.generateVin();
+
+//     valid = vinLib.isValidVin(vin);
+
+//     it('It should be valid: ' + vin, function() {
+//         expect(valid).to.be.true;
+//     });
+// });
 
 describe('Given a 16 digit VIN', function() {
     var vin = 'WVWUK63B92P54681';

@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "lib": [
+      "es2018",
+      "es2017",
+      "es2015",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "allowJs": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
+    "sourceMap": true,
+    "target": "es5",
+    "outDir": "compiled",
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "lib",
+    "compiled",
+    "old"
+  ]
+}
